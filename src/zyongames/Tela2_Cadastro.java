@@ -307,28 +307,40 @@ public class Tela2_Cadastro extends javax.swing.JFrame {
                 dispose();
                 // Cria Tabela JOGOS
                 C.criaJogos();
+                C.insereJogos();
                 // Cria Tabela Ação e Aventura
                 C.Acao_E_Aventura();
+                C.insere_Acao_E_Aventura();
                 // Cria Tabela Arcade
                 C.Arcade();
+                C.insere_Arcade();
                 // Cria Tabela Casual
                 C.Casual();
+                C.insere_Casual();
                 // Cria Tabela Clássicos
                 C.Classicos();
+                C.insere_Classicos();
                 // Cria Tabela Luta
                 C.Luta();
+                C.insere_Luta();
                 // Cria Tabela Corrida
                 C.Corrida();
+                C.insere_Corrida();
                 // Cria Tabela RPG
                 C.RPG();
+                C.insere_RPG();
                 // Cria Tabela Esportes
                 C.Esportes();
+                C.insere_Esportes();
                 // Cria Tabela Terror
                 C.Terror();
+                C.insere_Terror();
                 // Cria Tabela Estratégia
                 C.Estrategia();
+                C.insere_Estrategia();
                 // Cria Tabela MOBA
                 C.MOBA();
+                C.insere_MOBA();
                 // Cria Tabela CARRINHO
                 C.criaCarrinho();
                 // Cria Tabela COMPRADOS
